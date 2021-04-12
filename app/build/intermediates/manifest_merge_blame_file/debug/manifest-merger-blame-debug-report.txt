@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xiekang.bluetooths"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->I:\bluetooths\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->I:\bluetooths\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->I:\bluetooths\app\src\main\AndroidManifest.xml:5:3-66
+11-->I:\bluetooths\app\src\main\AndroidManifest.xml:5:20-63
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->I:\bluetooths\app\src\main\AndroidManifest.xml:6:3-72
+12-->I:\bluetooths\app\src\main\AndroidManifest.xml:6:20-69
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->I:\bluetooths\app\src\main\AndroidManifest.xml:7:3-79
+13-->I:\bluetooths\app\src\main\AndroidManifest.xml:7:20-76
+14    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+14-->I:\bluetooths\app\src\main\AndroidManifest.xml:8:3-10:43
+14-->I:\bluetooths\app\src\main\AndroidManifest.xml:9:5-59
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->I:\bluetooths\app\src\main\AndroidManifest.xml:11:3-74
+15-->I:\bluetooths\app\src\main\AndroidManifest.xml:11:20-71
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->I:\bluetooths\app\src\main\AndroidManifest.xml:12:3-77
+16-->I:\bluetooths\app\src\main\AndroidManifest.xml:12:20-74
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->I:\bluetooths\app\src\main\AndroidManifest.xml:13:3-74
+17-->I:\bluetooths\app\src\main\AndroidManifest.xml:13:20-71
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->I:\bluetooths\app\src\main\AndroidManifest.xml:14:3-79
+18-->I:\bluetooths\app\src\main\AndroidManifest.xml:14:20-76
+19    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+19-->I:\bluetooths\app\src\main\AndroidManifest.xml:15:3-17:43
+19-->I:\bluetooths\app\src\main\AndroidManifest.xml:16:5-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 经典蓝牙一样，应用使用蓝牙，需要声明BLUETOOTH权限，如果需要扫描设备或者操作蓝牙设置，则还需要BLUETOOTH_ADMIN权限 -->
+20-->I:\bluetooths\app\src\main\AndroidManifest.xml:18:3-77
+20-->I:\bluetooths\app\src\main\AndroidManifest.xml:18:20-74
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->I:\bluetooths\app\src\main\AndroidManifest.xml:19:3-65
+21-->I:\bluetooths\app\src\main\AndroidManifest.xml:19:20-62
+22    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+22-->I:\bluetooths\app\src\main\AndroidManifest.xml:20:3-82
+22-->I:\bluetooths\app\src\main\AndroidManifest.xml:20:20-79
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->I:\bluetooths\app\src\main\AndroidManifest.xml:21:3-78
+23-->I:\bluetooths\app\src\main\AndroidManifest.xml:21:20-75
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->I:\bluetooths\app\src\main\AndroidManifest.xml:22:3-79
+24-->I:\bluetooths\app\src\main\AndroidManifest.xml:22:20-76
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->I:\bluetooths\app\src\main\AndroidManifest.xml:23:3-77
+25-->I:\bluetooths\app\src\main\AndroidManifest.xml:23:20-74
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION " />
+26-->I:\bluetooths\app\src\main\AndroidManifest.xml:24:3-77
+26-->I:\bluetooths\app\src\main\AndroidManifest.xml:24:20-75
+27
+28    <uses-feature
+28-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-34:35
+29        android:name="android.hardware.bluetooth_le"
+29-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-53
+30        android:required="true" /> <!-- 新sdk需要网络权限 -->
+30-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-32
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:23:5-68
+31-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:23:22-65
+32
+33    <application
+33-->I:\bluetooths\app\src\main\AndroidManifest.xml:26:3-41:17
+34        android:allowBackup="true"
+34-->I:\bluetooths\app\src\main\AndroidManifest.xml:27:5-31
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->I:\bluetooths\app\src\main\AndroidManifest.xml:28:5-39
+37        android:label="@string/app_name"
+37-->I:\bluetooths\app\src\main\AndroidManifest.xml:29:5-37
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->I:\bluetooths\app\src\main\AndroidManifest.xml:30:5-50
+39        android:supportsRtl="true"
+39-->I:\bluetooths\app\src\main\AndroidManifest.xml:31:5-31
+40        android:testOnly="true"
+41        android:theme="@style/Theme.Bluetooths" >
+41-->I:\bluetooths\app\src\main\AndroidManifest.xml:32:5-44
+42        <activity android:name="com.xiekang.bluetooths.BluetoothConectActivity" >
+42-->I:\bluetooths\app\src\main\AndroidManifest.xml:33:5-39:16
+42-->I:\bluetooths\app\src\main\AndroidManifest.xml:33:15-54
+43            <intent-filter>
+43-->I:\bluetooths\app\src\main\AndroidManifest.xml:34:7-38:23
+44                <action android:name="android.intent.action.MAIN" />
+44-->I:\bluetooths\app\src\main\AndroidManifest.xml:35:9-61
+44-->I:\bluetooths\app\src\main\AndroidManifest.xml:35:17-58
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->I:\bluetooths\app\src\main\AndroidManifest.xml:37:9-69
+46-->I:\bluetooths\app\src\main\AndroidManifest.xml:37:19-66
+47            </intent-filter>
+48        </activity>
+49
+50        <!-- 全局Context提供者 -->
+51        <provider
+51-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-42:40
+52            android:name="com.xiekang.bluetooths.utlis.ApplicationContextProvider"
+52-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-83
+53            android:authorities="contextprovider"
+53-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-50
+54            android:exported="false" />
+54-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+55
+56        <service
+56-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-46:38
+57            android:name="com.xiekang.bluetooths.bluetooths.oxgen.BluetoothLeService"
+57-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-86
+58            android:enabled="true" />
+58-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-35
+59        <service
+59-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-49:38
+60            android:name="com.xiekang.bluetooths.bluetooths.bloopress.BluetoothLeService"
+60-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-90
+61            android:enabled="true" />
+61-->[:bluetoothslibrary] I:\bluetooths\bluetoothslibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-35
+62
+63        <meta-data
+63-->[com.android.support:support-core-utils:26.1.0] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\c09b57d019897d7ffda25f0a8ed175eb\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+64            android:name="android.support.VERSION"
+64-->[com.android.support:support-core-utils:26.1.0] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\c09b57d019897d7ffda25f0a8ed175eb\support-core-utils-26.1.0\AndroidManifest.xml:27:13-51
+65            android:value="26.1.0" /> <!-- ble扫描服务 -->
+65-->[com.android.support:support-core-utils:26.1.0] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\c09b57d019897d7ffda25f0a8ed175eb\support-core-utils-26.1.0\AndroidManifest.xml:28:13-35
+66        <service
+66-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:31:9-33:72
+67            android:name="com.qingniu.qnble.scanner.BleScanService"
+67-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:32:13-68
+68            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- ble连接服务 -->
+68-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:33:13-69
+69        <service
+69-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:35:9-37:72
+70            android:name="com.qingniu.scale.measure.ble.ScaleBleService"
+70-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:36:13-73
+71            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- broadcast连接服务 -->
+71-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:37:13-69
+72        <service
+72-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:39:9-41:72
+73            android:name="com.qingniu.scale.measure.broadcast.ScaleBroadcastService"
+73-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:40:13-85
+74            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- wsp连接服务 -->
+74-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:41:13-69
+75        <service
+75-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:44:9-46:72
+76            android:name="com.qingniu.scale.wsp.ble.ScaleWspBleService"
+76-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:45:13-72
+77            android:permission="android.permission.BIND_JOB_SERVICE" />
+77-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:46:13-69
+78        <service
+78-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:47:9-49:72
+79            android:name="com.qingniu.scale.measure.broadcast.ScaleFoodBroadcastService"
+79-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:48:13-89
+80            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- 身高一体机服务 -->
+80-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:49:13-69
+81        <service
+81-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:51:9-53:72
+82            android:name="com.qingniu.heightscale.ble.HeightScaleBleService"
+82-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:52:13-77
+83            android:permission="android.permission.BIND_JOB_SERVICE" />
+83-->[com.github.YolandaQingniu:qnscalesdk:2.3.11] C:\Users\hsl20\.gradle\caches\transforms-2\files-2.1\50aedfa3cc76a3b18a12561605340577\qnscalesdk-2.3.11\AndroidManifest.xml:53:13-69
+84    </application>
+85
+86</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "I:\\bluetooths\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_blutooths.xml",
+        "source": "I:\\bluetooths\\app\\src\\main\\res\\layout\\item_blutooths.xml"
+    },
+    {
+        "merged": "I:\\bluetooths\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "I:\\bluetooths\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "I:\\bluetooths\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bluetooth_conect.xml",
+        "source": "I:\\bluetooths\\app\\src\\main\\res\\layout\\activity_bluetooth_conect.xml"
+    }
+]
